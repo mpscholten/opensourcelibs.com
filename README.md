@@ -11,3 +11,11 @@ When looking for a library to solve a specific problem, I usually google for "<t
 
 # Adding A Library
 To add a library, [just add it to the `Library.hs` file](https://github.com/mpscholten/opensourcelibs.com/edit/master/src/Library.hs#L31). Then just create a new pull request :)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
