@@ -4,7 +4,6 @@ GHC_FLAGS=-XOverloadedStrings -XDeriveGeneric -O0 -Wall -isrc/ -hidirdist/ -odir
 .PHONY: all clean
 
 all: dist/main
-	dist/main
 
 dist/main: $(SRCS)
 	mkdir -p dist
