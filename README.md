@@ -1,7 +1,7 @@
 # opensourcelibs.com
 An index of cool open source libraries for your projects.
 
-When looking for a library to solve a specific problem, I usually google for "<the platform> <the problem>", e.g. "php validation". The issue is that unless a library is called like "awesome-validator-php", I will probably not find it. Especially when a library is new, it's hard to find it via google. This website is trying to solve that.
+When looking for a library to solve a specific problem, I usually google for somethingl like "php validation". The issue is that unless a library is called like "awesome-validator-php", I will probably not find it. Especially when a library is new, it's hard to find it via google. This website is trying to solve that.
 
 # Running Local
 1. Clone the repository
