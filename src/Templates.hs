@@ -67,7 +67,7 @@ module Templates where
             H.div ! A.style "width: 600px; padding-top: 50px; margin-left: auto; margin-right: auto" $ do
                 forM_ libraries entry
                 H.div ! A.style "padding-top: 20px" $ do
-                    a ! A.href "https://github.com/mpscholten/opensourcelibs.com/blob/master/src/Library.hs#L31" $ "Your library is missing?"
+                    a ! A.href "https://github.com/mpscholten/opensourcelibs.com/blob/master/README.md#adding-a-library" $ "Your library is missing? Just add it via GitHub"
 
     entry library = 
         H.div $ do
