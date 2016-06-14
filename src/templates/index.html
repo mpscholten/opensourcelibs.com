@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>opensourcelibs: Find the best open source libraries for your project</title>
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 style="text-align:center; padding-bottom: 120px">opensourcelibs.com: Find the best library for your problem</h1>
+
+            <h2 style="text-align: center">
+                I'm using
+                <select class="selectpicker" data-live-search="true" id="platform">
+                    <option>php</option>
+                    <option>javascript</option>
+                    <option>rails</option>
+                </select>
+                and look for a library doing
+                <select class="selectpicker" data-live-search="true" id="problem">
+                    <option>validation</option>
+                    <option>email</option>
+                </select>
+            </h2>
+        </div>
+
+        <script>
+            $('#problem').change(function() {
+                var platform = $('#platform').val();
+                var problem = $('#problem').val();
+                var targetUrl = '/' + platform + '/' + problem;
+                window.location.href = targetUrl;
+            });
+        </script>
+    </body>
+</html>
