@@ -14,7 +14,7 @@ module WebServer (run) where
 
     run :: Warp.Port -> String -> IO ()
     run port publicDir = do
-        Warp.run port (staticPolicy (addBase "src/public") $ logStdoutDev app)
+        Warp.run port (staticPolicy (addBase publicDir) $ logStdoutDev app)
 
     app :: Application
     app request respond = do
