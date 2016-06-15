@@ -57,6 +57,14 @@ module Library where
                 tags = ["web-server"]
             },
             library {
+                platform = Haskell,
+                name = "http-conduit",
+                description = "Library for doing http requests",
+                codeSampleUrl = Just "https://github.com/commercialhaskell/jump/blob/master/doc/http-client.md#request-building",
+                websiteUrl = Just "https://www.stackage.org/package/http-conduit",
+                tags = ["http requests"]
+            },
+            library {
                 platform = PHP,
                 name = "Propel2",
                 description = "Propel2 is an open-source high-performance Object-Relational Mapping (ORM) for modern PHP",
