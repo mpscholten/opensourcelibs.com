@@ -12,8 +12,8 @@ module WebServer (run) where
     import qualified Templates
     import Library
 
-    run :: Warp.Port -> IO ()
-    run port = do
+    run :: Warp.Port -> String -> IO ()
+    run port publicDir = do
         Warp.run port (staticPolicy (addBase "src/public") $ logStdoutDev app)
 
     app :: Application
