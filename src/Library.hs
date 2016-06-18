@@ -4,7 +4,7 @@ module Library where
     import BasicPrelude
     import qualified Data.List as List
 
-    data Platform = Haskell | PHP
+    data Platform = Haskell | PHP | Android
                   deriving (Eq, Show, Read, Enum)
 
     allPlatforms = [Haskell ..]
