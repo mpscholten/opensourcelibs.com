@@ -104,6 +104,15 @@ module Library where
                 githubStars = Just 1487,
                 tags = ["string handling"],
                 codeSampleUrl = Just "https://github.com/danielstjules/stringy#oo-and-chaining"
+            },
+            library {
+                platform = PHP,
+                name = "Eloquent",
+                description = "Simple ActiveRecord implementation for working with your database",
+                githubName = Just "illuminate/database",
+                githubStars = Just 769,
+                tags = ["orm", "orm (active record)"],
+                websiteUrl = Just "https://laravel.com/docs/5.0/eloquent" 
             }
         ]
         where
