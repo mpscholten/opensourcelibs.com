@@ -95,6 +95,15 @@ module Library where
                 githubName = Just "mindplay-dk/unbox",
                 githubStars = Just 25,
                 tags = ["dependency injection"]
+            },
+            library {
+                platform = PHP,
+                name = "Stringy",
+                description = "A PHP string manipulation library with multibyte support",
+                githubName = Just "danielstjules/stringy",
+                githubStars = Just 1487,
+                tags = ["string handling"],
+                codeSampleUrl = Just "https://github.com/danielstjules/stringy#oo-and-chaining"
             }
         ]
         where
