@@ -113,6 +113,31 @@ module Library where
                 githubStars = Just 769,
                 tags = ["orm", "orm (active record)"],
                 websiteUrl = Just "https://laravel.com/docs/5.0/eloquent" 
+            },
+            library {
+                platform = Android,
+                name = "Android Design Support Library",
+                description = "Material Design Library by Google",
+                tags = ["material design"],
+                websiteUrl = Just "http://android-developers.blogspot.de/2015/05/android-design-support-library.html"
+            },
+            library {
+                platform = Android,
+                name = "Sugar ORM",
+                description = "Insanely easy way to work with Android Databases",
+                tags = ["orm"],
+                websiteUrl = Just "http://satyan.github.io/sugar/",
+                githubName = Just "satyan/sugar",
+                githubStars = Just 1709
+            },
+            library {
+                platform = Android,
+                name = "Material Dialogs",
+                description = "A beautiful, easy-to-use, and customizable dialogs API",
+                tags = ["dialogs"],
+                githubName = Just "afollestad/material-dialogs",
+                githubStars = Just 6408,
+                codeSampleUrl = Just "https://github.com/afollestad/material-dialogs#basic-dialog"
             }
         ]
         where
